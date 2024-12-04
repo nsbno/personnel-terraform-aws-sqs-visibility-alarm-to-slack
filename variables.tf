@@ -1,8 +1,3 @@
-variable "environment" {
-  description = "e.g. dev/stage/prod"
-  type        = string
-}
-
 variable "name_prefix" {
   description = "A prefix used for naming resources."
   type        = string
