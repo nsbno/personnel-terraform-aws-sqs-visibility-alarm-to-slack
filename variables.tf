@@ -1,14 +1,14 @@
-variable "name_prefix" {
-  description = "A prefix used for naming resources."
+variable "alarm_name" {
+  description = "The name of the alarm"
   type        = string
 }
 
 variable "queue_name" {
-  description = "sqs queue to monitor"
+  description = "Name of SQS queue to monitor"
   type        = string
 }
 
 variable "threshold" {
-  description = "number of messages that should trigger an alarm"
+  description = "Number of messages that should trigger an alarm"
   type        = number
 }
